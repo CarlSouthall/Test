@@ -14,7 +14,7 @@ p = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter
    -h	help	          displays help file	                                            n/a
    -od	output_dir	      location output files are saved	                            current
    -o	output_text	      defines whether the output is stored in a textfile or not	        yes
-   -ot  output_tab        defines whether a tabulature is created and saved to a pdf        yes
+   -ot  output_tab        defines whether a tablature is created and saved to a pdf        yes
    I	input_file_names  single or list of wav file names seperated by spaces	            n/a
  
   For further usage help see github.com/CarlSouthall/ADTLib/usage.md  
