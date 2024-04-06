@@ -41,7 +41,7 @@ def meanPPmm(Track,Lambda,mi,ma,hop=512,fs=44100,dif=0.05):
     for i in range(1,len(onsets)):
         if abs(onsets[i]-onsets[i-1])<dif:
             ind=np.argmax(values[i-1:i+1])
-            np.delete(onsets,onsets[i-1+ind])
+            np.delete(onsets,onsets[i-1+ind].astype(int))
   
     return onsets
 
